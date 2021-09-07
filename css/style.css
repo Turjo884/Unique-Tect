@@ -654,6 +654,161 @@ footer ul li{
 /* End Footer Section */
 
 
+/* Start Responsive For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    header h1 {
+        font-size: 45px;
+    }
+    .body-arrow {
+        background: none;
+    }
+    header .header-btn {
+        margin-bottom: 30px;
+    }
+    .phone-img {
+        top: 108px;
+    }
+    .do {
+        padding: 150px 0 75px;
+    }
+    .do h2 {
+        width: 30%;
+        margin-bottom: 150px;
+    }
+    .do-arrow {
+        height: 100%;
+        top: 15%;
+        left: 63%;
+    }
+    .do h3 {
+        margin-top: 50px;
+    }
+    .do-btn {
+        width: 18%;
+    }
+    .m-200 {
+        margin: 50px 0;
+    }
+    .responsive-margin{
+        margin-top: 90px;
+    }
+    .work{
+        padding: 75px 0;
+    }
+    .work h2 {
+        width: 35%;
+        margin-bottom: 150px;
+    }
+    .work-arrow {
+        right: 21%;
+    }
+    .feature {
+        padding: 75px 0;
+    }
+    .feature h2 {
+        width: 34%;
+        margin-bottom: 105px;
+    }
+    .feature-arrow {
+        top: 16%;
+        left: 66%;
+    }
+    .feature .no-padding {
+        text-align: center;
+    }
+    .feature h4 {
+        text-align: center;
+        padding: 7px 0;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .package {
+        padding: 75px 0;
+    }
+    .package h2 {
+        width: 35%;
+        margin-bottom: 130px;
+    }
+    .package-arrow {
+        left: 23%;
+        top: 11%;
+    }
+    .package .package-btn {
+        width: 25%;
+        margin: 40px auto 80px;
+    }
+    .package .border-side {
+        border-left: 0;
+        border-right: 0;
+    }
+    .history {
+        margin: 75px 0;
+    }
+    .history h2 {
+        width: 32%;
+        margin-top: 65px!important;
+    }
+    .history-btn {
+        width: 24%;
+    }
+    .product{
+        padding: 75px 0;
+    }
+    .product h2 {
+        width: 69%;
+        margin-bottom: 100px;
+    }
+    .product-arrow {
+        top: 17%;
+        left: 83%;
+    }
+    .teammate {
+        padding: 75px 0;
+    }
+    .teammate h2 {
+        width: 56%;
+        margin-bottom: 110px;
+    }
+    .teammate-arrow {
+        top: 14%;
+        left: 13%;
+    }
+    .teammate-bg p {
+        margin-bottom: 35px;
+    }
+    .support {
+        padding: 0;
+    }
+    .support-btn {
+        width: 24%;
+        margin-bottom: 50px;
+    }
+    .order-btn {
+        margin: 20px auto 0;
+    }
+    .color-content h3 {
+        text-align: center;
+    }
+    .order {
+        padding: 75px 0;
+    }
+    footer {
+        margin: 22px 0 0;
+    }
+    footer h5 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    footer ul li {
+        text-align: center;
+    }
+}
+/* End Responsive For Tablet Device */
+
+
 /* Start Responsive For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     header h1 {
