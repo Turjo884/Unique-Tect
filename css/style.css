@@ -33,13 +33,11 @@ header{
     background: #ffc038;
     /* padding: 30px 0; */
 }
-.container, .container-fluid, .container-lg,
-.container-md, .container-sm, .container-xl, 
-.container-xxl {
-    padding: 20px 0;
-}
 header .logo{
     width: 110%;
+}
+.navbar {
+    padding-top: 2.5rem;
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
@@ -416,7 +414,7 @@ header .header-btn:hover{
 
 /* Start Product Section */
 .product{
-    padding: 85px;
+    padding: 85px 0;
 }
 .title-div{
     overflow: hidden;
@@ -626,7 +624,7 @@ footer ul{
 }
 footer ul li{
     color: #fff;
-    line-height: 30px;
+    line-height: 35px;
     font-weight: 200;
 }
 .footer-icon ul{
@@ -654,3 +652,153 @@ footer ul li{
     margin: 0;
 }
 /* End Footer Section */
+
+
+/* Start Responsive For Mobile Device */
+@media (min-width: 320px) and (max-width: 576px){
+    header h1 {
+        font-size: 45px;
+    }
+    .body-arrow {
+        background: none;
+    }
+    header .header-btn {
+        margin-bottom: 30px;
+    }
+    .phone-img {
+        top: -46px;
+    }
+    .do {
+        padding: 150px 0 75px;
+    }
+    .do h2 {
+        width: 50%;
+        margin-bottom: 120px;
+    }
+    .do-arrow {
+        height: 100%;
+        top: 15%;
+        left: 71%;
+    }
+    .do h3 {
+        margin-top: 50px;
+    }
+    .m-200 {
+        margin: 25px 0;
+    }
+    .responsive-margin{
+        margin-top: 90px;
+    }
+    .work{
+        padding: 75px 0;
+    }
+    .work h2 {
+        width: 60%;
+        margin-bottom: 105px;
+    }
+    .work-arrow {
+        right: 37%;
+    }
+    .feature {
+        padding: 75px 0;
+    }
+    .feature h2 {
+        width: 60%;
+        margin-bottom: 105px;
+    }
+    .feature-arrow {
+        top: 16%;
+        left: 77%;
+    }
+    .feature .no-padding {
+        text-align: center;
+    }
+    .feature h4 {
+        text-align: center;
+        padding: 7px 0;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .package {
+        padding: 75px 0;
+    }
+    .package h2 {
+        width: 56%;
+        margin-bottom: 130px;
+    }
+    .package-arrow {
+        left: 6%;
+    }
+    .package .package-btn {
+        margin: 40px auto 80px;
+    }
+    .package .border-side {
+        border-left: 0;
+        border-right: 0;
+    }
+    .history {
+        margin: 75px 0;
+    }
+    .history h2 {
+        width: 56%;
+        margin-top: 50px!important;
+    }
+    .history-btn {
+        width: 43%;
+    }
+    .product{
+        padding: 75px 0;
+    }
+    .product h2 {
+        width: 69%;
+        margin-bottom: 100px;
+    }
+    .product-arrow {
+        top: 23%;
+        left: 81%;
+    }
+    .teammate {
+        padding: 75px 0;
+    }
+    .teammate h2 {
+        width: 56%;
+        margin-bottom: 110px;
+    }
+    .teammate-arrow {
+        top: 21%;
+        left: 6%;
+    }
+    .teammate-bg p {
+        margin-bottom: 35px;
+    }
+    .support {
+        padding: 0;
+    }
+    .support-btn {
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    .order-btn {
+        margin: 20px auto 0;
+    }
+    .color-content h3 {
+        text-align: center;
+    }
+    .order {
+        padding: 75px 0;
+    }
+    footer {
+        margin: 22px 0 0;
+    }
+    footer h5 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    footer ul li {
+        text-align: center;
+    }
+}
+/* End Responsive For Mobile Device */
